@@ -29,7 +29,7 @@ public class HelloController {
         User user =new User();
         user.setUserId(1);
         user.setUserName("李四");
-
+        System.out.println(1111);
         return schedualServiceHi.helloUser( user );
     }
 
